@@ -144,7 +144,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Project\ClassLibrary1\LibraryManage.csproj">
+    <ProjectReference Include="..\ClassLibrary1\LibraryManage.csproj">
       <Project>{dfb8856d-1c12-4fa1-bc4f-0abd02da28db}</Project>
       <Name>LibraryManage</Name>
     </ProjectReference>
