@@ -1179,10 +1179,10 @@
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEFSURBVDhPY6AY2NfvZzGZdlFdp/OUvcvkk+5xs45GwnDS
-        /OPBpSvP2Sctu2RiPPOGCFQLAphPv65gNPnqf82Gnf+Dp+z9v2HfUTguaWz/P23x6v9N68/+N5l446vp
+        /OPBpSvP2Sctu2RiPPOGCFQLAphPv65gNPnqf82Gnf+Dp+z9v2HfUTguaWz/P23x6v9N68/+N5lw46vp
         jDvOUG0QgE+zmbPn/5rOCRDNM27/N5x8+xOKC0jRDMIg9VCtEM0m02/91+068d+6//j/6pXH/tdAce3q
         k//r15/7H774Kh7NUAliMIZm5wX3/s8/9+7/gvO4MUjeaf49TM1Rqx/9B4Fnr978f/LyNQYGiYMASB1O
-        ze8/f/n/7tNnDAwSBwHaaSbL2aAAm3ziDUGMEWAM9f+ZdKc9FCQWg9RDdZILGBgAFo3MrAB1wmcAAAAA
+        ze8/f/n/7tNnDAwSBwHaaSbL2aAAm3ziDUGMEWAM9f+ZdKc9FCQWg9RDdZILGBgAE6LMqyeQLgAAAAAA
         SUVORK5CYII=
 </value>
   </data>
@@ -1271,10 +1271,10 @@
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEFSURBVDhPY6AY2NfvZzGZdlFdp/OUvcvkk+5xs45GwnDS
-        /OPBpSvP2Sctu2RiPPOGCFQLAphPv65gNPnqf82Gnf+Dp+z9v2HfUTguaWz/P23x6v9N68/+N5lw46vp
-        jDvOUG0QgE+zmbPn/5rOCRDNM27/N5x8+xOKC0jRDMIg9VCtEM0m02/91+068d+6//j/6pXH/tdAce3q
-        k//r15/7H774Kh7NUAliMIZm5wX3/s8/9+7/gvO4MUjeaf49TM1Rqx/9B4Fnr978f/LyNQYGiYMASB1O
-        ze8/f/n/7tNnDAwSBwHaaSbL2aAAm3ziDUGMEWAM9f+ZdKc9FCQWg9RDdZILGBgAE6LMqyeQLgAAAAAA
+        /OPBpSvP2Sctu2RiPPOGCFQLAphPv65gNPnqf82Gnf+Dp+z9v2HfUTguaWz/P23x6v9N68/+N+m/8dV0
+        xh1nqDYIwKfZzNnzf03nBIjmGbf/G06+/QnFBaRoBmGQeqhWiGaT6bf+63ad+G/df/x/9cpj/2uguHb1
+        yf/168/9D198FY9mqAQxGEOz84J7/+efe/d/wXncGCTvNP8epuao1Y/+g8CzV2/+P3n5GgODxEEApA6n
+        5vefv/x/9+kzBgaJgwDtNJPlbFCATT7xhiDGCDCG+v9MutMeChKLQeqhOskFDAwAELfMqnmyk14AAAAA
         SUVORK5CYII=
 </value>
   </data>
@@ -1290,8 +1290,8 @@
         YH40WmWp+PJvJYo+AD3lV+xUySIFAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="bindingNavigator3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>171, 95</value>
+  <metadata name="bdNavCar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>171, 12</value>
   </metadata>
   <data name="toolStripButton9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1363,10 +1363,10 @@
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEFSURBVDhPY6AY2NfvZzGZdlFdp/OUvcvkk+5xs45GwnDS
-        /OPBpSvP2Sctu2RiPPOGCFQLAphPv65gNPnqf82Gnf+Dp+z9v2HfUTguaWz/P23x6v9N68/+N+m/8dV0
+        /OPBpSvP2Sctu2RiPPOGCFQLAphPv65gNPnqf82Gnf+Dp+z9v2HfUTguaWz/P23x6v9N68/+N+m78dV0
         xh1nqDYIwKfZzNnzf03nBIjmGbf/G06+/QnFBaRoBmGQeqhWiGaT6bf+63ad+G/df/x/9cpj/2uguHb1
         yf/168/9D198FY9mqAQxGEOz84J7/+efe/d/wXncGCTvNP8epuao1Y/+g8CzV2/+P3n5GgODxEEApA6n
-        5vefv/x/9+kzBgaJgwDtNJPlbFCATT7xhiDGCDCG+v9MutMeChKLQeqhOskFDAwAELfMqnmyk14AAAAA
+        5vefv/x/9+kzBgaJgwDtNJPlbFCATT7xhiDGCDCG+v9MutMeChKLQeqhOskFDAwADczMqalzDSIAAAAA
         SUVORK5CYII=
 </value>
   </data>

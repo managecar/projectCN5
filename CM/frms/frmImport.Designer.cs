@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmImport));
             this.Menu = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -104,7 +104,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dgvCar = new System.Windows.Forms.DataGridView();
             this.label21 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -112,7 +112,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.bindingNavigator3 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bdNavCar = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
@@ -125,11 +125,11 @@
             this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripTextBox5 = new System.Windows.Forms.ToolStripTextBox();
+            this.txtSearchCar = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.Menu.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tcImport.SuspendLayout();
             this.tpShipment.SuspendLayout();
@@ -141,9 +141,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
             this.bindingNavigator2.SuspendLayout();
             this.tpCar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).BeginInit();
-            this.bindingNavigator3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdNavCar)).BeginInit();
+            this.bdNavCar.SuspendLayout();
             this.SuspendLayout();
             // 
             // Menu
@@ -157,16 +157,6 @@
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(65, 461);
             this.Menu.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.btnExit);
-            this.panel1.Controls.Add(this.btnBack);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(65, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(719, 32);
-            this.panel1.TabIndex = 1;
             // 
             // label2
             // 
@@ -203,6 +193,16 @@
             this.label1.Size = new System.Drawing.Size(45, 123);
             this.label1.TabIndex = 10;
             this.label1.Text = "C\r\nA\r\nR\r\n";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnExit);
+            this.panel1.Controls.Add(this.btnBack);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(65, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(719, 32);
+            this.panel1.TabIndex = 1;
             // 
             // btnExit
             // 
@@ -821,7 +821,7 @@
             this.tpCar.Controls.Add(this.textBox8);
             this.tpCar.Controls.Add(this.textBox7);
             this.tpCar.Controls.Add(this.checkBox1);
-            this.tpCar.Controls.Add(this.dataGridView2);
+            this.tpCar.Controls.Add(this.dgvCar);
             this.tpCar.Controls.Add(this.label21);
             this.tpCar.Controls.Add(this.label14);
             this.tpCar.Controls.Add(this.label20);
@@ -829,7 +829,7 @@
             this.tpCar.Controls.Add(this.label16);
             this.tpCar.Controls.Add(this.label18);
             this.tpCar.Controls.Add(this.label17);
-            this.tpCar.Controls.Add(this.bindingNavigator3);
+            this.tpCar.Controls.Add(this.bdNavCar);
             this.tpCar.Location = new System.Drawing.Point(4, 31);
             this.tpCar.Name = "tpCar";
             this.tpCar.Size = new System.Drawing.Size(711, 394);
@@ -917,13 +917,13 @@
             this.checkBox1.Text = "isSold";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // dataGridView2
+            // dgvCar
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(102, 174);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(529, 180);
-            this.dataGridView2.TabIndex = 26;
+            this.dgvCar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCar.Location = new System.Drawing.Point(102, 174);
+            this.dgvCar.Name = "dgvCar";
+            this.dgvCar.Size = new System.Drawing.Size(529, 180);
+            this.dgvCar.TabIndex = 26;
             // 
             // label21
             // 
@@ -995,13 +995,13 @@
             this.label17.TabIndex = 18;
             this.label17.Text = "CarID:";
             // 
-            // bindingNavigator3
+            // bdNavCar
             // 
-            this.bindingNavigator3.AddNewItem = this.toolStripButton9;
-            this.bindingNavigator3.CountItem = this.toolStripLabel4;
-            this.bindingNavigator3.DeleteItem = this.toolStripButton10;
-            this.bindingNavigator3.Dock = System.Windows.Forms.DockStyle.None;
-            this.bindingNavigator3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bdNavCar.AddNewItem = this.toolStripButton9;
+            this.bdNavCar.CountItem = this.toolStripLabel4;
+            this.bdNavCar.DeleteItem = this.toolStripButton10;
+            this.bdNavCar.Dock = System.Windows.Forms.DockStyle.None;
+            this.bdNavCar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton11,
             this.toolStripButton12,
             this.toolStripSeparator4,
@@ -1014,18 +1014,18 @@
             this.toolStripButton9,
             this.toolStripButton10,
             this.toolStripButton15,
-            this.toolStripTextBox5,
+            this.txtSearchCar,
             this.toolStripLabel5});
-            this.bindingNavigator3.Location = new System.Drawing.Point(4, 363);
-            this.bindingNavigator3.MoveFirstItem = this.toolStripButton11;
-            this.bindingNavigator3.MoveLastItem = this.toolStripButton14;
-            this.bindingNavigator3.MoveNextItem = this.toolStripButton13;
-            this.bindingNavigator3.MovePreviousItem = this.toolStripButton12;
-            this.bindingNavigator3.Name = "bindingNavigator3";
-            this.bindingNavigator3.PositionItem = this.toolStripTextBox4;
-            this.bindingNavigator3.Size = new System.Drawing.Size(498, 25);
-            this.bindingNavigator3.TabIndex = 1;
-            this.bindingNavigator3.Text = "bindingNavigator3";
+            this.bdNavCar.Location = new System.Drawing.Point(4, 363);
+            this.bdNavCar.MoveFirstItem = this.toolStripButton11;
+            this.bdNavCar.MoveLastItem = this.toolStripButton14;
+            this.bdNavCar.MoveNextItem = this.toolStripButton13;
+            this.bdNavCar.MovePreviousItem = this.toolStripButton12;
+            this.bdNavCar.Name = "bdNavCar";
+            this.bdNavCar.PositionItem = this.toolStripTextBox4;
+            this.bdNavCar.Size = new System.Drawing.Size(529, 25);
+            this.bdNavCar.TabIndex = 1;
+            this.bdNavCar.Text = "bindingNavigator3";
             // 
             // toolStripButton9
             // 
@@ -1121,11 +1121,11 @@
             this.toolStripButton15.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton15.Text = "toolStripButton1";
             // 
-            // toolStripTextBox5
+            // txtSearchCar
             // 
-            this.toolStripTextBox5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.toolStripTextBox5.Name = "toolStripTextBox5";
-            this.toolStripTextBox5.Size = new System.Drawing.Size(160, 25);
+            this.txtSearchCar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.txtSearchCar.Name = "txtSearchCar";
+            this.txtSearchCar.Size = new System.Drawing.Size(160, 25);
             // 
             // toolStripLabel5
             // 
@@ -1133,6 +1133,7 @@
             this.toolStripLabel5.Name = "toolStripLabel5";
             this.toolStripLabel5.Size = new System.Drawing.Size(58, 22);
             this.toolStripLabel5.Text = "Search";
+            this.toolStripLabel5.Click += new System.EventHandler(this.toolStripLabel5_Click);
             // 
             // frmImport
             // 
@@ -1148,8 +1149,8 @@
             this.Text = "frmImport";
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.tcImport.ResumeLayout(false);
             this.tpShipment.ResumeLayout(false);
@@ -1166,10 +1167,10 @@
             this.bindingNavigator2.PerformLayout();
             this.tpCar.ResumeLayout(false);
             this.tpCar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator3)).EndInit();
-            this.bindingNavigator3.ResumeLayout(false);
-            this.bindingNavigator3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bdNavCar)).EndInit();
+            this.bdNavCar.ResumeLayout(false);
+            this.bdNavCar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1250,7 +1251,7 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dgvCar;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label20;
@@ -1258,7 +1259,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.BindingNavigator bindingNavigator3;
+        private System.Windows.Forms.BindingNavigator bdNavCar;
         private System.Windows.Forms.ToolStripButton toolStripButton9;
         private System.Windows.Forms.ToolStripLabel toolStripLabel4;
         private System.Windows.Forms.ToolStripButton toolStripButton10;
@@ -1271,7 +1272,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButton14;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripButton toolStripButton15;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox5;
+        private System.Windows.Forms.ToolStripTextBox txtSearchCar;
         private System.Windows.Forms.ToolStripLabel toolStripLabel5;
     }
 }
