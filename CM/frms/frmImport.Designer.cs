@@ -225,7 +225,7 @@
             this.btnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GrayText;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
-            this.btnBack.Location = new System.Drawing.Point(0, -1);
+            this.btnBack.Location = new System.Drawing.Point(647, -1);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(33, 33);
             this.btnBack.TabIndex = 11;
