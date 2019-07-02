@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmImport));
             this.Menu = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -128,8 +128,8 @@
             this.toolStripTextBox5 = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.Menu.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tcImport.SuspendLayout();
             this.tpShipment.SuspendLayout();
@@ -157,16 +157,6 @@
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(65, 461);
             this.Menu.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.btnExit);
-            this.panel1.Controls.Add(this.btnBack);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(65, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(719, 32);
-            this.panel1.TabIndex = 1;
             // 
             // label2
             // 
@@ -204,6 +194,16 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "C\r\nA\r\nR\r\n";
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnExit);
+            this.panel1.Controls.Add(this.btnBack);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(65, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(719, 32);
+            this.panel1.TabIndex = 1;
+            // 
             // btnExit
             // 
             this.btnExit.FlatAppearance.BorderSize = 0;
@@ -225,7 +225,7 @@
             this.btnBack.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GrayText;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
-            this.btnBack.Location = new System.Drawing.Point(0, -1);
+            this.btnBack.Location = new System.Drawing.Point(647, -1);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(33, 33);
             this.btnBack.TabIndex = 11;
@@ -1148,8 +1148,8 @@
             this.Text = "frmImport";
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.tcImport.ResumeLayout(false);
             this.tpShipment.ResumeLayout(false);
