@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1.DTOs
+namespace ClassLibrary1
 {
-    public class ExportDTO
+    class ExportDTO
     {
         private int ExportID, ID;
         private string Note, IDCar, Username;

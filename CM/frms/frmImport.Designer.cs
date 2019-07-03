@@ -40,7 +40,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tcImport = new System.Windows.Forms.TabControl();
             this.tpShipment = new System.Windows.Forms.TabPage();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.dgvShipment = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
@@ -49,7 +48,7 @@
             this.txtImportIdSM = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.bdNavShipment = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
@@ -65,14 +64,13 @@
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txtBrandDate = new System.Windows.Forms.DateTimePicker();
-            this.txtBrandNote = new System.Windows.Forms.RichTextBox();
-            this.txtBrandEmail = new System.Windows.Forms.TextBox();
-            this.txtBrandName = new System.Windows.Forms.TextBox();
-            this.txtBrandPhone = new System.Windows.Forms.TextBox();
-            this.txtBrandAddress = new System.Windows.Forms.TextBox();
-            this.txtBrandID = new System.Windows.Forms.TextBox();
-            this.dgvBrand = new System.Windows.Forms.DataGridView();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -80,7 +78,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.bdNavBrand = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
@@ -91,12 +90,10 @@
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.btAddNew = new System.Windows.Forms.ToolStripButton();
-            this.btSaveBrand = new System.Windows.Forms.ToolStripButton();
-            this.txtSearchBrand = new System.Windows.Forms.ToolStripTextBox();
-            this.btSearch = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.tpCar = new System.Windows.Forms.TabPage();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -124,10 +121,12 @@
             this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.btSave = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
             this.txtSearchCar = new System.Windows.Forms.ToolStripTextBox();
-            this.btSearchCar = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -135,12 +134,12 @@
             this.tcImport.SuspendLayout();
             this.tpShipment.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShipment)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdNavShipment)).BeginInit();
-            this.bdNavShipment.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
+            this.bindingNavigator1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBrand)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdNavBrand)).BeginInit();
-            this.bdNavBrand.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
+            this.bindingNavigator2.SuspendLayout();
             this.tpCar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdNavCar)).BeginInit();
@@ -266,23 +265,13 @@
             this.tpShipment.Controls.Add(this.txtImportIdSM);
             this.tpShipment.Controls.Add(this.label5);
             this.tpShipment.Controls.Add(this.label3);
-            this.tpShipment.Controls.Add(this.bdNavShipment);
+            this.tpShipment.Controls.Add(this.bindingNavigator1);
             this.tpShipment.Location = new System.Drawing.Point(4, 31);
             this.tpShipment.Name = "tpShipment";
             this.tpShipment.Padding = new System.Windows.Forms.Padding(3);
             this.tpShipment.Size = new System.Drawing.Size(711, 394);
             this.tpShipment.TabIndex = 0;
             this.tpShipment.Text = "Shipment";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(107, 95);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(100, 26);
-            this.dateTimePicker1.TabIndex = 14;
             // 
             // richTextBox2
             // 
@@ -360,14 +349,13 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "ImportID:";
             // 
-            // bdNavShipment
+            // bindingNavigator1
             // 
-            this.bdNavShipment.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.bdNavShipment.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.bdNavShipment.CountItem = this.bindingNavigatorCountItem;
-            this.bdNavShipment.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.bdNavShipment.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bdNavShipment.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigator1.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.bindingNavigator1.CountItem = this.bindingNavigatorCountItem;
+            this.bindingNavigator1.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.bindingNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -382,16 +370,16 @@
             this.toolStripButton1,
             this.toolStripTextBox1,
             this.toolStripLabel1});
-            this.bdNavShipment.Location = new System.Drawing.Point(3, 366);
-            this.bdNavShipment.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.bdNavShipment.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.bdNavShipment.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.bdNavShipment.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.bdNavShipment.Name = "bdNavShipment";
-            this.bdNavShipment.PositionItem = this.bindingNavigatorPositionItem;
-            this.bdNavShipment.Size = new System.Drawing.Size(705, 25);
-            this.bdNavShipment.TabIndex = 0;
-            this.bdNavShipment.Text = "bdNavShipment";
+            this.bindingNavigator1.Location = new System.Drawing.Point(3, 366);
+            this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.bindingNavigator1.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.bindingNavigator1.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.bindingNavigator1.Name = "bindingNavigator1";
+            this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
+            this.bindingNavigator1.Size = new System.Drawing.Size(705, 25);
+            this.bindingNavigator1.TabIndex = 0;
+            this.bindingNavigator1.Text = "bindingNavigator1";
             // 
             // bindingNavigatorAddNewItem
             // 
@@ -486,11 +474,10 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
-            this.toolStripButton1.Click += new System.EventHandler(this.btShipmentSave_Click);
             // 
             // toolStripTextBox1
             // 
-            this.toolStripTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.toolStripTextBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(160, 25);
             // 
@@ -504,14 +491,14 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage2.Controls.Add(this.txtBrandDate);
-            this.tabPage2.Controls.Add(this.txtBrandNote);
-            this.tabPage2.Controls.Add(this.txtBrandEmail);
-            this.tabPage2.Controls.Add(this.txtBrandName);
-            this.tabPage2.Controls.Add(this.txtBrandPhone);
-            this.tabPage2.Controls.Add(this.txtBrandAddress);
-            this.tabPage2.Controls.Add(this.txtBrandID);
-            this.tabPage2.Controls.Add(this.dgvBrand);
+            this.tabPage2.Controls.Add(this.dateTimePicker2);
+            this.tabPage2.Controls.Add(this.richTextBox1);
+            this.tabPage2.Controls.Add(this.textBox4);
+            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.textBox6);
+            this.tabPage2.Controls.Add(this.textBox5);
+            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Controls.Add(this.dataGridView1);
             this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.label8);
@@ -519,7 +506,7 @@
             this.tabPage2.Controls.Add(this.label9);
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.bdNavBrand);
+            this.tabPage2.Controls.Add(this.bindingNavigator2);
             this.tabPage2.Location = new System.Drawing.Point(4, 31);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -527,80 +514,71 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Brand";
             // 
-            // txtBrandDate
+            // richTextBox1
             // 
-            this.txtBrandDate.CustomFormat = "dd/MM/yyyy";
-            this.txtBrandDate.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBrandDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.txtBrandDate.Location = new System.Drawing.Point(163, 87);
-            this.txtBrandDate.Name = "txtBrandDate";
-            this.txtBrandDate.Size = new System.Drawing.Size(100, 26);
-            this.txtBrandDate.TabIndex = 20;
+            this.richTextBox1.Location = new System.Drawing.Point(459, 90);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(198, 64);
+            this.richTextBox1.TabIndex = 19;
+            this.richTextBox1.Text = "";
             // 
-            // txtBrandNote
+            // textBox4
             // 
-            this.txtBrandNote.Location = new System.Drawing.Point(459, 90);
-            this.txtBrandNote.Name = "txtBrandNote";
-            this.txtBrandNote.Size = new System.Drawing.Size(198, 64);
-            this.txtBrandNote.TabIndex = 5;
-            this.txtBrandNote.Text = "";
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(163, 128);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(198, 26);
+            this.textBox4.TabIndex = 18;
             // 
-            // txtBrandEmail
+            // textBox2
             // 
-            this.txtBrandEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBrandEmail.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBrandEmail.Location = new System.Drawing.Point(163, 128);
-            this.txtBrandEmail.Multiline = true;
-            this.txtBrandEmail.Name = "txtBrandEmail";
-            this.txtBrandEmail.Size = new System.Drawing.Size(198, 26);
-            this.txtBrandEmail.TabIndex = 2;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(163, 53);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(198, 26);
+            this.textBox2.TabIndex = 18;
             // 
-            // txtBrandName
+            // textBox6
             // 
-            this.txtBrandName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBrandName.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBrandName.Location = new System.Drawing.Point(163, 53);
-            this.txtBrandName.Multiline = true;
-            this.txtBrandName.Name = "txtBrandName";
-            this.txtBrandName.Size = new System.Drawing.Size(198, 26);
-            this.txtBrandName.TabIndex = 1;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(459, 53);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(198, 26);
+            this.textBox6.TabIndex = 18;
             // 
-            // txtBrandPhone
+            // textBox5
             // 
-            this.txtBrandPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBrandPhone.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBrandPhone.Location = new System.Drawing.Point(459, 53);
-            this.txtBrandPhone.Multiline = true;
-            this.txtBrandPhone.Name = "txtBrandPhone";
-            this.txtBrandPhone.Size = new System.Drawing.Size(198, 26);
-            this.txtBrandPhone.TabIndex = 4;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(459, 16);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(198, 26);
+            this.textBox5.TabIndex = 18;
             // 
-            // txtBrandAddress
+            // textBox1
             // 
-            this.txtBrandAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBrandAddress.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBrandAddress.Location = new System.Drawing.Point(459, 16);
-            this.txtBrandAddress.Multiline = true;
-            this.txtBrandAddress.Name = "txtBrandAddress";
-            this.txtBrandAddress.Size = new System.Drawing.Size(198, 26);
-            this.txtBrandAddress.TabIndex = 3;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(163, 16);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(198, 26);
+            this.textBox1.TabIndex = 18;
             // 
-            // txtBrandID
+            // dataGridView1
             // 
-            this.txtBrandID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBrandID.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBrandID.Location = new System.Drawing.Point(163, 16);
-            this.txtBrandID.Name = "txtBrandID";
-            this.txtBrandID.Size = new System.Drawing.Size(198, 26);
-            this.txtBrandID.TabIndex = 0;
-            // 
-            // dgvBrand
-            // 
-            this.dgvBrand.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBrand.Location = new System.Drawing.Point(84, 175);
-            this.dgvBrand.Name = "dgvBrand";
-            this.dgvBrand.Size = new System.Drawing.Size(544, 164);
-            this.dgvBrand.TabIndex = 17;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(84, 175);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(544, 164);
+            this.dataGridView1.TabIndex = 17;
             // 
             // label10
             // 
@@ -672,14 +650,14 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "BrandID:";
             // 
-            // bdNavBrand
+            // bindingNavigator2
             // 
-            this.bdNavBrand.AddNewItem = null;
-            this.bdNavBrand.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.bdNavBrand.CountItem = this.toolStripLabel2;
-            this.bdNavBrand.DeleteItem = this.toolStripButton3;
-            this.bdNavBrand.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bdNavBrand.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigator2.AddNewItem = this.toolStripButton2;
+            this.bindingNavigator2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.bindingNavigator2.CountItem = this.toolStripLabel2;
+            this.bindingNavigator2.DeleteItem = this.toolStripButton3;
+            this.bindingNavigator2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton4,
             this.toolStripButton5,
             this.toolStripSeparator1,
@@ -689,22 +667,31 @@
             this.toolStripButton6,
             this.toolStripButton7,
             this.toolStripSeparator3,
-            this.btAddNew,
+            this.toolStripButton2,
             this.toolStripButton3,
-            this.btSaveBrand,
-            this.txtSearchBrand,
-            this.btSearch});
-            this.bdNavBrand.Location = new System.Drawing.Point(3, 366);
-            this.bdNavBrand.MoveFirstItem = this.toolStripButton4;
-            this.bdNavBrand.MoveLastItem = this.toolStripButton7;
-            this.bdNavBrand.MoveNextItem = this.toolStripButton6;
-            this.bdNavBrand.MovePreviousItem = this.toolStripButton5;
-            this.bdNavBrand.Name = "bdNavBrand";
-            this.bdNavBrand.PositionItem = this.toolStripTextBox2;
-            this.bdNavBrand.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.bdNavBrand.Size = new System.Drawing.Size(705, 25);
-            this.bdNavBrand.TabIndex = 1;
-            this.bdNavBrand.Text = "bindingNavigator2";
+            this.toolStripButton8,
+            this.toolStripTextBox3,
+            this.toolStripLabel3});
+            this.bindingNavigator2.Location = new System.Drawing.Point(3, 366);
+            this.bindingNavigator2.MoveFirstItem = this.toolStripButton4;
+            this.bindingNavigator2.MoveLastItem = this.toolStripButton7;
+            this.bindingNavigator2.MoveNextItem = this.toolStripButton6;
+            this.bindingNavigator2.MovePreviousItem = this.toolStripButton5;
+            this.bindingNavigator2.Name = "bindingNavigator2";
+            this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
+            this.bindingNavigator2.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.bindingNavigator2.Size = new System.Drawing.Size(705, 25);
+            this.bindingNavigator2.TabIndex = 1;
+            this.bindingNavigator2.Text = "bindingNavigator2";
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton2.Text = "Add new";
             // 
             // toolStripLabel2
             // 
@@ -782,38 +769,26 @@
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
-            // btAddNew
+            // toolStripButton8
             // 
-            this.btAddNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btAddNew.Image = ((System.Drawing.Image)(resources.GetObject("btAddNew.Image")));
-            this.btAddNew.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btAddNew.Name = "btAddNew";
-            this.btAddNew.Size = new System.Drawing.Size(23, 22);
-            this.btAddNew.Text = "toolStripButton2";
-            this.btAddNew.Click += new System.EventHandler(this.btAddNew_Click);
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
+            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton8.Name = "toolStripButton8";
+            this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton8.Text = "toolStripButton1";
             // 
-            // btSaveBrand
+            // toolStripTextBox3
             // 
-            this.btSaveBrand.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btSaveBrand.Image = ((System.Drawing.Image)(resources.GetObject("btSaveBrand.Image")));
-            this.btSaveBrand.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btSaveBrand.Name = "btSaveBrand";
-            this.btSaveBrand.Size = new System.Drawing.Size(23, 22);
-            this.btSaveBrand.Text = "Save";
-            this.btSaveBrand.Click += new System.EventHandler(this.btSaveBrand_Click);
+            this.toolStripTextBox3.Name = "toolStripTextBox3";
+            this.toolStripTextBox3.Size = new System.Drawing.Size(160, 25);
             // 
-            // txtSearchBrand
+            // toolStripLabel3
             // 
-            this.txtSearchBrand.Name = "txtSearchBrand";
-            this.txtSearchBrand.Size = new System.Drawing.Size(160, 25);
-            // 
-            // btSearch
-            // 
-            this.btSearch.Image = ((System.Drawing.Image)(resources.GetObject("btSearch.Image")));
-            this.btSearch.Name = "btSearch";
-            this.btSearch.Size = new System.Drawing.Size(58, 22);
-            this.btSearch.Text = "Search";
-            this.btSearch.Click += new System.EventHandler(this.btSearch_Click);
+            this.toolStripLabel3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel3.Image")));
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(58, 22);
+            this.toolStripLabel3.Text = "Search";
             // 
             // tpCar
             // 
@@ -840,16 +815,6 @@
             this.tpCar.Size = new System.Drawing.Size(711, 394);
             this.tpCar.TabIndex = 2;
             this.tpCar.Text = "Car";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker3.Location = new System.Drawing.Point(455, 53);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(100, 26);
-            this.dateTimePicker3.TabIndex = 29;
             // 
             // textBox13
             // 
@@ -1003,10 +968,9 @@
             // bdNavCar
             // 
             this.bdNavCar.AddNewItem = this.toolStripButton9;
-            this.bdNavCar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.bdNavCar.CountItem = this.toolStripLabel4;
             this.bdNavCar.DeleteItem = this.toolStripButton10;
-            this.bdNavCar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bdNavCar.Dock = System.Windows.Forms.DockStyle.None;
             this.bdNavCar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton11,
             this.toolStripButton12,
@@ -1019,19 +983,17 @@
             this.toolStripSeparator6,
             this.toolStripButton9,
             this.toolStripButton10,
-            this.btSave,
+            this.toolStripButton15,
             this.txtSearchCar,
-            this.btSearchCar,
-            this.toolStripLabel3});
-            this.bdNavCar.Location = new System.Drawing.Point(0, 369);
+            this.toolStripLabel5});
+            this.bdNavCar.Location = new System.Drawing.Point(4, 363);
             this.bdNavCar.MoveFirstItem = this.toolStripButton11;
             this.bdNavCar.MoveLastItem = this.toolStripButton14;
             this.bdNavCar.MoveNextItem = this.toolStripButton13;
             this.bdNavCar.MovePreviousItem = this.toolStripButton12;
             this.bdNavCar.Name = "bdNavCar";
             this.bdNavCar.PositionItem = this.toolStripTextBox4;
-            this.bdNavCar.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.bdNavCar.Size = new System.Drawing.Size(711, 25);
+            this.bdNavCar.Size = new System.Drawing.Size(529, 25);
             this.bdNavCar.TabIndex = 1;
             this.bdNavCar.Text = "bindingNavigator3";
             // 
@@ -1120,33 +1082,58 @@
             this.toolStripSeparator6.Name = "toolStripSeparator6";
             this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
             // 
-            // btSave
+            // toolStripButton15
             // 
-            this.btSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.btSave.Image = ((System.Drawing.Image)(resources.GetObject("btSave.Image")));
-            this.btSave.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btSave.Name = "btSave";
-            this.btSave.Size = new System.Drawing.Size(23, 22);
-            this.btSave.Text = "Save";
+            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton15.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton15.Image")));
+            this.toolStripButton15.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton15.Name = "toolStripButton15";
+            this.toolStripButton15.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton15.Text = "toolStripButton1";
             // 
             // txtSearchCar
             // 
-            this.txtSearchCar.BackColor = System.Drawing.SystemColors.Window;
+            this.txtSearchCar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtSearchCar.Name = "txtSearchCar";
             this.txtSearchCar.Size = new System.Drawing.Size(160, 25);
             // 
-            // btSearchCar
+            // toolStripLabel5
             // 
-            this.btSearchCar.Image = ((System.Drawing.Image)(resources.GetObject("btSearchCar.Image")));
-            this.btSearchCar.Name = "btSearchCar";
-            this.btSearchCar.Size = new System.Drawing.Size(58, 22);
-            this.btSearchCar.Text = "Search";
-            this.btSearchCar.Click += new System.EventHandler(this.btSearchCar_Click);
+            this.toolStripLabel5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel5.Image")));
+            this.toolStripLabel5.Name = "toolStripLabel5";
+            this.toolStripLabel5.Size = new System.Drawing.Size(58, 22);
+            this.toolStripLabel5.Text = "Search";
+            this.toolStripLabel5.Click += new System.EventHandler(this.toolStripLabel5_Click);
             // 
-            // toolStripLabel3
+            // dateTimePicker1
             // 
-            this.toolStripLabel3.Name = "toolStripLabel3";
-            this.toolStripLabel3.Size = new System.Drawing.Size(0, 22);
+            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(107, 95);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(100, 26);
+            this.dateTimePicker1.TabIndex = 14;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Location = new System.Drawing.Point(163, 87);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(100, 26);
+            this.dateTimePicker2.TabIndex = 20;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker3.Location = new System.Drawing.Point(455, 53);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(100, 26);
+            this.dateTimePicker3.TabIndex = 29;
             // 
             // frmImport
             // 
@@ -1169,15 +1156,15 @@
             this.tpShipment.ResumeLayout(false);
             this.tpShipment.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShipment)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdNavShipment)).EndInit();
-            this.bdNavShipment.ResumeLayout(false);
-            this.bdNavShipment.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
+            this.bindingNavigator1.ResumeLayout(false);
+            this.bindingNavigator1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBrand)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bdNavBrand)).EndInit();
-            this.bdNavBrand.ResumeLayout(false);
-            this.bdNavBrand.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
+            this.bindingNavigator2.ResumeLayout(false);
+            this.bindingNavigator2.PerformLayout();
             this.tpCar.ResumeLayout(false);
             this.tpCar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCar)).EndInit();
@@ -1208,7 +1195,7 @@
         private System.Windows.Forms.TextBox txtImportIdSM;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.BindingNavigator bdNavShipment;
+        private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
@@ -1224,13 +1211,13 @@
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.RichTextBox txtBrandNote;
-        private System.Windows.Forms.TextBox txtBrandEmail;
-        private System.Windows.Forms.TextBox txtBrandName;
-        private System.Windows.Forms.TextBox txtBrandPhone;
-        private System.Windows.Forms.TextBox txtBrandAddress;
-        private System.Windows.Forms.TextBox txtBrandID;
-        private System.Windows.Forms.DataGridView dgvBrand;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label8;
@@ -1238,7 +1225,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.BindingNavigator bdNavBrand;
+        private System.Windows.Forms.BindingNavigator bindingNavigator2;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripButton toolStripButton4;
@@ -1249,9 +1237,9 @@
         private System.Windows.Forms.ToolStripButton toolStripButton6;
         private System.Windows.Forms.ToolStripButton toolStripButton7;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripButton btSaveBrand;
-        private System.Windows.Forms.ToolStripTextBox txtSearchBrand;
-        private System.Windows.Forms.ToolStripLabel btSearch;
+        private System.Windows.Forms.ToolStripButton toolStripButton8;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox3;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.TabPage tpCar;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox11;
@@ -1280,13 +1268,11 @@
         private System.Windows.Forms.ToolStripButton toolStripButton13;
         private System.Windows.Forms.ToolStripButton toolStripButton14;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripButton btSave;
+        private System.Windows.Forms.ToolStripButton toolStripButton15;
         private System.Windows.Forms.ToolStripTextBox txtSearchCar;
-        private System.Windows.Forms.ToolStripLabel btSearchCar;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel5;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker txtBrandDate;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
-        private System.Windows.Forms.ToolStripButton btAddNew;
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1.DTOs
+namespace ClassLibrary1
 {
-    public class CustomerDTO
+    class CustomerDTO
     {
         private int ID;
         private string Fullname, Phone, Address;
