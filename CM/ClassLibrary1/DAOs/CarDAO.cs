@@ -12,7 +12,7 @@ namespace ClassLibrary1.DAOs
     {
         private SqlConnection con;
         private SqlCommand cmd;
-        private SqlDataReader rs;
+        private SqlDataReader rs = null;
         private string conn;
 
         private void closeConnection()

@@ -16,7 +16,7 @@ namespace frms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmImport());
+            Application.Run(new frmExport());
         }
     }
 }

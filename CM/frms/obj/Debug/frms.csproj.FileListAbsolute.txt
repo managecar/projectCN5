@@ -75,3 +75,4 @@ D:\New folder\projectCN5\CM\frms\obj\Debug\frms.csproj.CoreCompileInputs.cache
 D:\New folder\projectCN5\CM\frms\obj\Debug\frms.csproj.CopyComplete
 D:\New folder\projectCN5\CM\frms\obj\Debug\frms.exe
 D:\New folder\projectCN5\CM\frms\obj\Debug\frms.pdb
+D:\New folder\projectCN5\CM\frms\obj\Debug\frms.frmExport.resources
