@@ -110,7 +110,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.GrayText;
             this.label3.Location = new System.Drawing.Point(195, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 24);
+            this.label3.Size = new System.Drawing.Size(119, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "Username:";
             // 
@@ -122,7 +122,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.GrayText;
             this.label4.Location = new System.Drawing.Point(195, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 24);
+            this.label4.Size = new System.Drawing.Size(116, 21);
             this.label4.TabIndex = 2;
             this.label4.Text = "Password:";
             // 
@@ -132,21 +132,19 @@
             this.txtUsername.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.txtUsername.Location = new System.Drawing.Point(199, 107);
             this.txtUsername.MaxLength = 40000;
-            this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(289, 31);
-            this.txtUsername.TabIndex = 3;
+            this.txtUsername.Size = new System.Drawing.Size(289, 24);
+            this.txtUsername.TabIndex = 0;
             // 
             // txtPassword
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("UD Digi Kyokasho NK-R", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.txtPassword.Location = new System.Drawing.Point(199, 185);
-            this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(289, 30);
-            this.txtPassword.TabIndex = 3;
+            this.txtPassword.Size = new System.Drawing.Size(289, 24);
+            this.txtPassword.TabIndex = 1;
             // 
             // button1
             // 
@@ -158,13 +156,14 @@
             this.button1.Location = new System.Drawing.Point(281, 242);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 43);
-            this.button1.TabIndex = 4;
+            this.button1.TabIndex = 2;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // frmLogin
             // 
+            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;

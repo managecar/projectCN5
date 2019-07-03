@@ -41,7 +41,6 @@ namespace frms
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.Message);
             }
 

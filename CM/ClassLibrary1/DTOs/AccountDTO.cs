@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace ClassLibrary1.DTOs
 {
-    class AccountDTO
+    public class AccountDTO
     {
         private string Username, Password, Fullname, Address, Phone, Email, Role;
         private DateTime Birthday;

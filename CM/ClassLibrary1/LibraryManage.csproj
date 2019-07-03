@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAOs\BrandDAO.cs" />
     <Compile Include="DAOs\CarDAO.cs" />
     <Compile Include="DAOs\LoginDAO.cs" />
     <Compile Include="DTOs\AccountDTO.cs" />

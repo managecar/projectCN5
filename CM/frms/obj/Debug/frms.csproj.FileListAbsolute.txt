@@ -35,26 +35,6 @@ C:\Users\sondh\Downloads\CM\frms\bin\Debug\ClassLibrary1.dll
 C:\Users\sondh\Downloads\CM\frms\bin\Debug\ClassLibrary1.pdb
 C:\Users\sondh\Downloads\CM\frms\obj\Debug\frms.csproj.CopyComplete
 C:\Users\sondh\Downloads\CM\frms\obj\Debug\frms.csprojAssemblyReference.cache
-D:\GitHub\projectCN5\CM\frms\bin\Debug\frms.exe.config
-D:\GitHub\projectCN5\CM\frms\bin\Debug\frms.exe
-D:\GitHub\projectCN5\CM\frms\bin\Debug\frms.pdb
-D:\GitHub\projectCN5\CM\frms\bin\Debug\ClassLibrary1.dll
-D:\GitHub\projectCN5\CM\frms\bin\Debug\ClassLibrary1.pdb
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csprojAssemblyReference.cache
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.UserControls.ucAddBrand.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.ucAddImport.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.frmImport.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.frmLogin.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.Properties.Resources.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.UserControls.ucEditBrand.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.ucEditImport.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.ucSearchImport.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.UserControls.ucSeatchBrand.resources
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csproj.GenerateResource.cache
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csproj.CoreCompileInputs.cache
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csproj.CopyComplete
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.exe
-D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.pdb
 D:\New folder\projectCN5\CM\frms\bin\Debug\frms.exe.config
 D:\New folder\projectCN5\CM\frms\bin\Debug\frms.exe
 D:\New folder\projectCN5\CM\frms\bin\Debug\frms.pdb
@@ -75,3 +55,23 @@ D:\New folder\projectCN5\CM\frms\obj\Debug\frms.csproj.CoreCompileInputs.cache
 D:\New folder\projectCN5\CM\frms\obj\Debug\frms.csproj.CopyComplete
 D:\New folder\projectCN5\CM\frms\obj\Debug\frms.exe
 D:\New folder\projectCN5\CM\frms\obj\Debug\frms.pdb
+D:\GitHub\projectCN5\CM\frms\bin\Debug\frms.exe.config
+D:\GitHub\projectCN5\CM\frms\bin\Debug\frms.exe
+D:\GitHub\projectCN5\CM\frms\bin\Debug\frms.pdb
+D:\GitHub\projectCN5\CM\frms\bin\Debug\ClassLibrary1.dll
+D:\GitHub\projectCN5\CM\frms\bin\Debug\ClassLibrary1.pdb
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csprojAssemblyReference.cache
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.UserControls.ucAddBrand.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.ucAddImport.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.frmImport.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.frmLogin.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.Properties.Resources.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.UserControls.ucEditBrand.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.ucEditImport.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.ucSearchImport.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.UserControls.ucSeatchBrand.resources
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csproj.GenerateResource.cache
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csproj.CoreCompileInputs.cache
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.csproj.CopyComplete
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.exe
+D:\GitHub\projectCN5\CM\frms\obj\Debug\frms.pdb

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace ClassLibrary1.DTOs
 {
-    class ImportDTO
+    public class ImportDTO
     {
         private int ImportID, Quantity;
         private DateTime Date;
